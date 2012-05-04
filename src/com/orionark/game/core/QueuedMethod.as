@@ -1,5 +1,5 @@
-package com.boomtown.core {
-	import com.kuro.kuroexpress.util.IObjectNode;
+package com.orionark.game.core {
+	import com.orionark.util.IObjectNode;
 	
   public class QueuedMethod implements IObjectNode {
     

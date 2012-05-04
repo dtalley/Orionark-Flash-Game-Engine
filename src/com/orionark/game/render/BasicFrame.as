@@ -45,7 +45,7 @@ package com.orionark.game.render {
       }
     }
     
-    public function draw( layer:uint, source:BitmapData, matrix:Matrix = null, transform:ColorTransform = null, blend:String = null, clip:Rectangle = null, smoothing:Boolean = false ) {
+    public function draw( layer:uint, source:BitmapData, matrix:Matrix = null, transform:ColorTransform = null, blend:String = null, clip:Rectangle = null, smoothing:Boolean = false ):void {
       if ( _layers.length <= layer ) {
         var totalLayers:uint = _layers.length;
         for ( var i:uint = totalLayers; i < layer + 1 - totalLayers; i++ ) {

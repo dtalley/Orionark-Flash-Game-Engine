@@ -1,7 +1,7 @@
 package com.orionark.game.core {
-  import com.kuro.kuroexpress.struct.LinkedList;
-  import com.kuro.kuroexpress.util.IComparableObjectNode;
-  import com.kuro.kuroexpress.util.OrderedListNode;
+  import com.orionark.struct.LinkedList;
+  import com.orionark.util.IComparableObjectNode;
+  import com.orionark.util.OrderedListNode;
 	
   public class DrivenObject extends OrderedListNode {
     

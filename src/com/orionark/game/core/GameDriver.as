@@ -1,10 +1,9 @@
 package com.orionark.game.core {
-  import com.kuro.kuroexpress.KuroExpress;
-  import com.kuro.kuroexpress.struct.AnderssonTree;
-  import com.kuro.kuroexpress.struct.LinkedList;
-  import com.kuro.kuroexpress.struct.ListIterator;
-  import com.kuro.kuroexpress.struct.OrderedLinkedList;
-  import com.kuro.kuroexpress.struct.Queue;
+  import com.orionark.struct.AnderssonTree;
+  import com.orionark.struct.LinkedList;
+  import com.orionark.struct.ListIterator;
+  import com.orionark.struct.OrderedLinkedList;
+  import com.orionark.struct.Queue;
   import flash.display.DisplayObject;
   import flash.events.Event;
   import flash.events.EventDispatcher;
@@ -120,12 +119,7 @@ package com.orionark.game.core {
         tickCount++;
       }
       if ( tickCount >= MAX_TICKS_PER_FRAME ) {
-        KuroExpress.broadcast( "Too many ticks to process in a timely manner.  Dropping " + elapsed.toFixed + "ms.", {
-          obj: this,
-          label: "TimeManager::advance()",
-          person: "David Talley",
-          color: 0xFF0000
-        });
+        //TODO: Figure this part out
       }
       if ( elapsed < 0 ) {
         elapsed = 0;

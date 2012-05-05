@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
-  <includeClasses/>
+  <includeClasses>
+    <classEntry path="com.orionark.game.physics.GamePhysics"/>
+    <classEntry path="com.orionark.game.physics.DynamicBody"/>
+    <classEntry path="com.orionark.game.physics.IMotionListener"/>
+    <classEntry path="com.orionark.game.physics.collision.ContactPoint"/>
+    <classEntry path="com.orionark.game.physics.collision.CollisionShape"/>
+    <classEntry path="com.orionark.game.physics.collision.CollisionCircle"/>
+  </includeClasses>
   <includeResources/>
   <namespaceManifests/>
 </flexLibProperties>

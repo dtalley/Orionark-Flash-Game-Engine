@@ -90,6 +90,7 @@ package com.orionark.game.render {
       return _br;
     }
     
+	
     public function localize( point:Point ):Point {
       return new Point( point.x - _tl.x, point.y - _tl.y );
     }
